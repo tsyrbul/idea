@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JAVA IT WEB APP</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!—- CSS -—>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+ 
+<!--                      Header                           -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar">Home</span>
+        <span class="icon-bar">Ideas</span>
+        <span class="icon-bar">Add idea</span>
+        <span class="icon-bar">My account</span>
+      </button>
+      <a class="navbar-brand" href="home.html">J.A.V.A.I.T. Ideas</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li><a href="home.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="viewideas.html">Ideas</a></li>
+        <li><a href="addidea.html">Add idea</a></li>
+        <li class="active"><a href="myaccount.html">My account</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+            <div class="form-group" id="search">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Hello, user! <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+     
+    <!-- </div>/.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--                     End of Header                  -->
+
+
+<!--              Add Idea                     -->
+    <div id="main">
+      <div class="page-header text-center">
+        <h1 id="addIdea">Add new idea</h1>
+    </div>
+
+    <div class="input-group"> 
+      <input type="text" id="title" class="form-control" placeholder="Title">
+      <textarea class="form-control" id="ideaText"></textarea>
+    </div>
+
+    <div class="form-group" id="inputFile">
+      <label for="inputFile">Attach file</label>
+        <input type="file">
+          <p class="help-block">You can attach you file here.</p>
+    </div>
+
+
+
+   <div class="form-group" id="submitButton">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+  </div>
+  
+
+
+      </div>
+
+
+ 		 
+
+
+
+
+
+
+ 	</div>
+<!--              End of Home page              -->
+
+
+
+<!--                Footer                      -->
+    <footer id="foo" class="panel-footer navbar-fixed-bottom">
+    <div class="container">
+      <div class="row">
+        <section class="text-center" id="contacts">
+          Contact us on 
+          <a href="https://github.com/MrTitarenko/JAVAIT.Brainstorm">GitHub</a>
+        </section>
+      <div class="text-center" id="copyright">&copy; Copyright J.A.V.A.I.T. 2016</div>
+    </div>
+  </footer>
+  <!--               End of Footer                      -->     
+
+
+<!—- JS —>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
