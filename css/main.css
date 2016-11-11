@@ -2,12 +2,11 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-  
 }
 body{
 	margin-bottom: 80px;
 	font-size: 14px;
-  	color: #000033;
+  	color: #000000;
   	background-color: #ffffff;
 }
 
@@ -18,14 +17,12 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-
 a.navbar-brand {
     font-size: 2em;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px;
-    color: #00004d !important;
+    color: #000000 !important;
     margin: 5px 100px 5px 5px;
-    text-decoration: 
 }
 .navbar-nav{
 	margin: 5px;
@@ -37,6 +34,9 @@ a.navbar-brand {
 /*Home*/
 #main{
 	margin-top: 80px;
+}
+h1{
+	font-size: 20px;
 }
 .list-group{
 	margin-left: 300px;
@@ -73,7 +73,9 @@ a.navbar-brand {
 	margin-bottom: 10px;
 }
 textarea{
-	height: 200px;
+    overflow-y: scroll;
+    height: 200px !important;
+    resize: none; 
 }
 #submitButton{
 	position: relative;
